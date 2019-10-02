@@ -26,7 +26,8 @@ Docker build command is fairly straight forward:
 docker build --rm -f "Dockerfile" -t gordonwatts/copyxaodcollections:latest .
 ```
 
-It is also kept up to date on [docker hub]().
+It is also kept up to date on [docker hub](https://cloud.docker.com/repository/registry-1.docker.io/gordonwatts/copyxaodcollections),
+so you can run it without having to build it first.
 
 ## Ack
 
