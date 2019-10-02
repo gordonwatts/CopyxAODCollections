@@ -20,6 +20,7 @@ void copyfiles ()
   {
     event.getEntry (eventIndex);
     event.copy("AntiKt4EMTopoJets");
+    event.copy("InDetTrackParticles");
     event.fill();
   }
 
