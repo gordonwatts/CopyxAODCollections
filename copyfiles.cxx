@@ -22,6 +22,18 @@ void copyfiles ()
     event.copy("AntiKt4EMTopoJets");
     event.copy("InDetTrackParticles");
     event.copy("TruthParticles");
+    event.copy("EventInfo");
+    event.copy("Muons");
+    event.copy("Kt4EMPFlowEventShape");
+    event.copy("Kt4EMPFlowPUSBEventShape");
+    event.copy("Kt4EMTopoOriginEventShape");
+    event.copy("TopoClusterIsoCentralEventShape");
+    event.copy("TopoClusterIsoForwardEventShape");
+    event.copy("NeutralParticleFlowIsoForwardEventShape");
+    event.copy("NeutralParticleFlowIsoCentralEventShape");
+    event.copy("PrimaryVertices");
+    event.copy("MET_Track");
+    event.copy("AntiKt4TruthJets");
     event.fill();
   }
 

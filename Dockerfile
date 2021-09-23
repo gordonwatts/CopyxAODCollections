@@ -1,6 +1,6 @@
 # Build a docker image to run against ATLAS code that has been pre-built and is ready to go.
 
-FROM atlas/analysisbase:21.2.62 
+FROM atlas/analysisbase:21.2.184
 
 WORKDIR /home/atlas
 
